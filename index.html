@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Limelight|Waiting+for+the+Sunrise|Indie+Flower|Open+Sans+Condensed:300|Amatic+SC|Gruppo' rel='stylesheet' type='text/css'>
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+		<script src="assets/javascripts/jquery-1.9.1.js"></script>
+		<script src="assets/javascripts/scripts.js" type="text/javascript"> </script>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+		<nav>
+			<div class="whole-nav"></div>
+			<img id="question" src="assets/image/question.png">
+			<ul hor-nav>
+				<li class="navitem">F<img src="assets/image/cupcake2.png"><img src="assets/image/cupcake2.png">DIES!</li>
+				<li class="navitem0"><input type="text" placeholder="SEARCH"></li>
+				<li class="navitem1"><a href="#">Cuisine</a>
+					<ul class="dropdown">
+						<li id="Real-Mexican" class="scroll">
+							<input id="Real-Mexican" type="checkbox" name="Real-Mexican">
+							<label for="Real-Mexican">Real Mexican</label>
+						</li>
+
+						<li id="Fusion" class="scroll">
+							<input type="checkbox" name="Fusion">
+							<label for="Fusion">Fusion</label></li>
+
+						<li id="lukas1" class="scroll">
+							<input type="checkbox">American</li>
+						<li id="michael1" class="scroll">?</li>
+						<li id="art1" class="scroll">Japanese</li>
+						<li id="claire1" class="scroll">Italian</li>
+						<li id="sue1" class="scroll">American</li>
+					</ul>
+				</li>
+				<li class="navitem1"><a href="#">Location</a>
+					<ul class="dropdown">
+						<li id="Michael1" class="scroll">Hawaii</li>
+						<li id="soup" class="scroll">Canada</li>
+						<li id="lukas1" class="scroll">Denmark</li>
+						<li id="rachel1" class="scroll">Mexico</li>
+						<li id="art1" class="scroll">Japan</li>
+						<li id="claire1" class="scroll">Italy</li>
+						<li id="sue1" class="scroll">Montana</li>
+					</ul>
+ 
+				</li>
+				<li class="navitem1"><a href="#">Price Range</a>
+					<ul class="dropdown">
+						<li><a href="#">$</a></li>
+						<li><a href="#">$$</a></li>
+						<li><a href="#">$$$</a></li>
+						<li><a href="#">$$$$</a></li>
+					</ul>
+
+				</li>
+
+			</ul>	
+		</nav>
+	
+		<div id="map">
+			<img class="img1" src="assets/image/map.jpg">
+			<img id="rachel" class="pin Real-Mexican" src="assets/image/pins.png">
+			<img id="lukas" class="pin Real-Mexican" src="assets/image/pins.png">
+			<img id="lori" class="pin soup" src="assets/image/pins.png">
+			<img id="post" src="assets/image/post.png">
+
+		</div>
+
+			<div id="modal-container">
+			<div id="modal-overlay"></div>
+				<div class="modal" id="modal-box">
+					<div id="Modal-Header">
+						Login
+					</div>
+					<div class="Modal-Content">
+						<input type="text" class="USERNAME" placeholder="Enter Username">
+						<input type="text" class="PASSWORD" placeholder="Enter Password">
+					</div>
+					<div id="Modal-Footer">
+						<div id="button1">Welcome back!</div>
+					</div>
+				</div>
+
+				<div class="modal" id="modal-box2">
+					<div id="Modal-Header">
+						Create User
+					</div>
+					<div class="Modal-Content">
+						<input type="text" class="USERNAME" placeholder="Enter Username">
+						<input type="text" class="EMAIL" placeholder="Enter Email">
+						<input type="text" class="PASSWORD" placeholder="Enter Password">
+					</div>
+					<div id="Modal-Footer">
+						<div id="button0">Create User!</div>
+					</div>
+				</div>
+
+				<div class="modal" id="modal-box3">
+					<div id="Modal-Footer">
+						<div id="button2">Login</div>
+						<div id="button3">Create User</div>
+					</div>
+				</div>
+
+				<div class="modal" id="modal-box4">
+					<div id="Modal-Header2">
+						SHARE YOUR BEST MEAL
+					</div>
+					<div class="Modal-Content">
+						<input type="text" class="SHARENAME" placeholder="Name of Dish">
+						<input type="text" class="LOCATION" placeholder="Location">
+						<input type="text" class="PRICE" placeholder="Price">
+					</div>
+					<div id="Modal-Footer">
+						<div id="button4">Upload Photo</div>
+						<div id="button5">SHARE THE YUMINESS</div>
+					</div>
+				</div>
+
+				<div class="modal" id="modal-box5">
+					<div id="Modal-Header2">
+						THE YUMMINESS
+					</div>
+					<div class="Modal-Content5">
+						<p>Name: <span class="foodname"></span></p>
+						<p>Location: <span class="location"></span></p>
+						<p>Price: <span class="price"></span></p>
+						<p>Story: <span class="story"></span></p>
+
+					</div>
+				</div>
+
+				<div class="modal" id="modal-box6">
+						<h2>WELCOME FOODIES!</h2>
+						<p>This site celebrates the best meals around the world!</p>
+						<p>To get started, click  outside this box. To share your best meal (ever!), click your desired location on the map. To explore, filter, search, or hover over the pins.</p>
+					<p>Enjoy with great gusto!</p>
+				</div>
+
+				<div class="modal1" id="modal-box7">
+					<h2>WELCOME</h2>
+					<h1>F<img src="assets/image/cupcake.png"><img src="assets/image/cupcake.png">DIES!</h1>
+					<img class="arrow" src="assets/image/arrows.png">
+					<p class="click">Click Me!</p> 
+				</div>
+
+				<div class="modal" id="post">
+						<p>post</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
